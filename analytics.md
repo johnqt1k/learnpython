@@ -20,4 +20,5 @@ sorted_data = filtered_data.sort_values(by="Height(cm)", ascending=True)
 print("\nSorted data by ascending height:\n", sorted_data)
 
 **Här skapas en ny csv fil med den filtrerade datan.**
+
 filtered_data.to_csv("filtered_data.csv", index=False)
